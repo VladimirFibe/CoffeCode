@@ -4,9 +4,9 @@ struct LocationListView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                ForEach(0 ..< 5) { item in
                     HStack {
-                        AvatarView(image: "person.circle", width: 80)
+                        AvatarView(image: "default-square-asset", width: 80)
                         VStack(alignment: .leading, spacing: 8) {
                             Text("AC Kitchen & Lounge")
                                 .font(.title2)
@@ -15,7 +15,7 @@ struct LocationListView: View {
                                 .minimumScaleFactor(0.75)
                             HStack {
                                 ForEach(0 ..< 5) { item in
-                                    AvatarView(image: "person.circle", width: 35)
+                                    AvatarView(image: "default-avatar", width: 35)
                                 }
                             }
                         }
@@ -32,7 +32,7 @@ struct AvatarView: View {
     let image: String
     let width: CGFloat
     var body: some View {
-        Image(systemName: image)
+        Image(image)
             .resizable()
             .scaledToFill()
             .frame(width: width, height: width)

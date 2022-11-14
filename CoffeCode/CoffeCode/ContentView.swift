@@ -1,28 +1,24 @@
-//
-//  ContentView.swift
-//  CoffeCode
-//
-//  Created by Vladimir Fibe on 13.11.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         TabView {
-            MapView()
+            LocationMapView()
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }
-            LocationsView()
+                .tag(0)
+            LocationListView()
                 .tabItem {
                     Label("Locations", systemImage: "building")
                 }
-            ProfileView()
+                .tag(1)
+            Text("Profile")
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
-        }.tint(.green)
+                .tag(2)
+        }
     }
 }
 

@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A0C61B2922A236006B988C /* CoffeCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeCode.entitlements; sourceTree = "<group>"; };
 		02E42775292148DE00D055BB /* CoffeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E42778292148DE00D055BB /* CoffeCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeCodeApp.swift; sourceTree = "<group>"; };
 		02E4277A292148DE00D055BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		02E42777292148DE00D055BB /* CoffeCode */ = {
 			isa = PBXGroup;
 			children = (
+				02A0C61B2922A236006B988C /* CoffeCode.entitlements */,
 				02E42778292148DE00D055BB /* CoffeCodeApp.swift */,
 				02E4277A292148DE00D055BB /* ContentView.swift */,
 				02E427862921622200D055BB /* LocationListView.swift */,
@@ -145,9 +147,6 @@
 			files = (
 				02E427872921622200D055BB /* LocationListView.swift in Sources */,
 				02E4277B292148DE00D055BB /* ContentView.swift in Sources */,
-				A5E130BD292242DE00003F86 /* LocationsView.swift in Sources */,
-				A5E130BF292242E200003F86 /* ProfileView.swift in Sources */,
-				A5E130BB292242D100003F86 /* MapView.swift in Sources */,
 				02E42779292148DE00D055BB /* CoffeCodeApp.swift in Sources */,
 				774D9AE1292292150099BE45 /* LocationMapView.swift in Sources */,
 			);
@@ -275,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoffeCode/CoffeCode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeCode/Preview Content\"";
@@ -306,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoffeCode/CoffeCode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeCode/Preview Content\"";
