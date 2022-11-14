@@ -5,17 +5,19 @@ struct LocationListView: View {
         NavigationView {
             List {
                 ForEach(0 ..< 5) { item in
-                    HStack {
-                        AvatarView(image: "default-square-asset", width: 80)
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("AC Kitchen & Lounge")
-                                .font(.title2)
-                                .fontWeight(.semibold)
-                                .lineLimit(1)
-                                .minimumScaleFactor(0.75)
-                            HStack {
-                                ForEach(0 ..< 5) { item in
-                                    AvatarView(image: "default-avatar", width: 35)
+                    NavigationLink(destination: LocationDetailView()) {
+                        HStack {
+                            AvatarView(image: "default-square-asset", width: 80)
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("AC Kitchen & Lounge")
+                                    .font(.title2)
+                                    .fontWeight(.semibold)
+                                    .lineLimit(1)
+                                    .minimumScaleFactor(0.75)
+                                HStack {
+                                    ForEach(0 ..< 5) { item in
+                                        AvatarView(image: "default-avatar", width: 35)
+                                    }
                                 }
                             }
                         }

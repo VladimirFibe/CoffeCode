@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02934DA929230AC0006579AD /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02934DA829230AC0006579AD /* LocationDetailView.swift */; };
 		02E42779292148DE00D055BB /* CoffeCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42778292148DE00D055BB /* CoffeCodeApp.swift */; };
 		02E4277B292148DE00D055BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E4277A292148DE00D055BB /* ContentView.swift */; };
 		02E4277D292148DF00D055BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E4277C292148DF00D055BB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02934DA829230AC0006579AD /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		02A0C61B2922A236006B988C /* CoffeCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeCode.entitlements; sourceTree = "<group>"; };
 		02E42775292148DE00D055BB /* CoffeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E42778292148DE00D055BB /* CoffeCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeCodeApp.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				02E42778292148DE00D055BB /* CoffeCodeApp.swift */,
 				02E4277A292148DE00D055BB /* ContentView.swift */,
 				02E427862921622200D055BB /* LocationListView.swift */,
+				02934DA829230AC0006579AD /* LocationDetailView.swift */,
 				774D9AE0292292150099BE45 /* LocationMapView.swift */,
 				02E4277C292148DF00D055BB /* Assets.xcassets */,
 				02E4277E292148DF00D055BB /* Preview Content */,
@@ -148,6 +151,7 @@
 				02E427872921622200D055BB /* LocationListView.swift in Sources */,
 				02E4277B292148DE00D055BB /* ContentView.swift in Sources */,
 				02E42779292148DE00D055BB /* CoffeCodeApp.swift in Sources */,
+				02934DA929230AC0006579AD /* LocationDetailView.swift in Sources */,
 				774D9AE1292292150099BE45 /* LocationMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
