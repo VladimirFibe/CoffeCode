@@ -141,6 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E4277B292148DE00D055BB /* ContentView.swift in Sources */,
+				A5E130BD292242DE00003F86 /* LocationsView.swift in Sources */,
+				A5E130BF292242E200003F86 /* ProfileView.swift in Sources */,
+				A5E130BB292242D100003F86 /* MapView.swift in Sources */,
 				02E42779292148DE00D055BB /* CoffeCodeApp.swift in Sources */,
 				774D9AE1292292150099BE45 /* LocationMapView.swift in Sources */,
 			);
