@@ -11,6 +11,7 @@
 		02E4277B292148DE00D055BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E4277A292148DE00D055BB /* ContentView.swift */; };
 		02E4277D292148DF00D055BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E4277C292148DF00D055BB /* Assets.xcassets */; };
 		02E42780292148DF00D055BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E4277F292148DF00D055BB /* Preview Assets.xcassets */; };
+		02E427872921622200D055BB /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E427862921622200D055BB /* LocationListView.swift */; };
 		774D9AE1292292150099BE45 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D9AE0292292150099BE45 /* LocationMapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		02E4277A292148DE00D055BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02E4277C292148DF00D055BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E4277F292148DF00D055BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E427862921622200D055BB /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		774D9AE0292292150099BE45 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +57,7 @@
 			children = (
 				02E42778292148DE00D055BB /* CoffeCodeApp.swift */,
 				02E4277A292148DE00D055BB /* ContentView.swift */,
+				02E427862921622200D055BB /* LocationListView.swift */,
 				774D9AE0292292150099BE45 /* LocationMapView.swift */,
 				02E4277C292148DF00D055BB /* Assets.xcassets */,
 				02E4277E292148DF00D055BB /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E427872921622200D055BB /* LocationListView.swift in Sources */,
 				02E4277B292148DE00D055BB /* ContentView.swift in Sources */,
 				A5E130BD292242DE00003F86 /* LocationsView.swift in Sources */,
 				A5E130BF292242E200003F86 /* ProfileView.swift in Sources */,
